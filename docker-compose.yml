@@ -1,8 +1,7 @@
 version: "3"
-
 services:
   webapp:
     build: .
     ports:
-      - "8080:80"
+      - "9000:80"
     container_name: simple-webapp
